@@ -57,7 +57,8 @@
                         <div class="mb-3 row">
                             <label for="staticEmail" class="col-sm-2 col-form-label">Tanggal kunjungan</label>
                             <div class="col-sm-10">
-                                <input type="date" name="tgl_kunjungan" class="form-control" required>
+                                <input type="date" min="{{ now()->toDateString('Y-m-d') }}" name="tgl_kunjungan"
+                                    class="form-control" min="today" required>
                             </div>
                         </div>
 

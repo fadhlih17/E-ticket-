@@ -24,7 +24,7 @@
                 </li>
                 <!-- Pilihan untuk ke menu Pemesanan tiket -->
                 <li class="sidebar-item">
-                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="/transaksi"
+                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="transaksi-add"
                         aria-expanded="false">
                         <i class="fa fa-table" aria-hidden="true"></i>
                         <span class="hide-menu">Pemesanan Tiket</span>

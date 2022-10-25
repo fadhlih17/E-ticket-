@@ -96,6 +96,10 @@
                         <div class="col-md-5 ms-auto">{{$data->jumlah_anak}}</div>
                     </div><br>
                     <div class="row">
+                        <div class="col-md-5">Tanggal kunjungan</div>
+                        <div class="col-md-5 ms-auto">{{$data->tgl_kunjungan}}</div>
+                    </div><br>
+                    <div class="row">
                         <div class="col-md-5">Harga Tiket</div>
                         <div class="col-md-5 ms-auto">Rp. {{number_format($data->wisata->price)}}</div>
                     </div><br>
